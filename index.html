@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>js-challenge-1</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<div id="container">
+	<h2>Input from range and number should be synchronized at all times</h2>
+	<span id="rangeValue"></span><br/>
+	<label>Range: <input id="myRange" type="range" min="0" max="50"
+	onchange="updateRangeValue();"/></label><br/><br/>
+	<label>Number: <input id="myNum" type="number" min="0" max="50" oninput="updateTextValue();" /></label>
+</div>
+
+
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
